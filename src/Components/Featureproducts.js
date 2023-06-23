@@ -15,6 +15,7 @@ export default function Featureproducts() {
             setUsers(data)
           })
       }
+  
       useEffect(()=>{
         fetchUserData()
       },[]);
